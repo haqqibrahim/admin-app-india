@@ -1,7 +1,0 @@
-1. Ensure node, mysql server and mysql workbench is installed on your system.
-2.create database in sql workbench.
-3. open project in vs code (any code editor of your choice)
-4. open app.js file and add mysql database details, (database, password etc.)
-4. in your vs code editor terminal run(npm install)
-5. in your vs code editor terminal run(npm start)
-6. open http://localhost:3000/ in your browser
