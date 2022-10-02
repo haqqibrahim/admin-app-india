@@ -1,12 +1,13 @@
 const mongoose = require("mongoose");
 
-const imageUploadSchema = new mongoose.Schema({
+const fileUploadSchema = new mongoose.Schema({
   summary: String,
-  image: {
+  email: String,
+  file: {
     data: Buffer,
     contentType: String,
   },
 });
 
-const ImageUpload = new mongoose.model("Image Upload", imageUploadSchema);
-module.exports = ImageUpload;
+const FileUpload = new mongoose.model("Image Upload", fileUploadSchema);
+module.exports = FileUpload;
